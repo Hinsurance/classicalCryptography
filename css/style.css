@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.contain {
+	margin-left: 200px;
+	padding: 25px;
+}
+.layui-form-label {
+	width: 110px;
+	padding: 9px 0;
+}
+/*加密 解密结果*/
+#hill_decrypt_text,
+#hill_c_text,
+#playfair_decrypt_text,
+#playfair_c_text,
+#caesar_decrypt_text,
+#caesar_c_text {
+	padding: 9px 15px;
+}
+
+/*加密 解密按钮*/
+.layui-btn {
+	margin-left: 25px;
+}
